@@ -1,4 +1,4 @@
-package ru.gb.hubr.controller;
+package ru.gb.hubr.controller.profile;
 
 
 import org.springframework.stereotype.Controller;
@@ -45,7 +45,6 @@ public class ProfileController {
         System.out.println(userDto.getEmail());
         return "redirect:/profile";
     }
-
 
 
 }
